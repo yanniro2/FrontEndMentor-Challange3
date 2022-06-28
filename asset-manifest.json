@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/FrontEndMentor-Challange3/static/css/main.2aa6acae.css",
+    "main.js": "/FrontEndMentor-Challange3/static/js/main.facd7147.js",
+    "static/js/787.deaa0e61.chunk.js": "/FrontEndMentor-Challange3/static/js/787.deaa0e61.chunk.js",
+    "index.html": "/FrontEndMentor-Challange3/index.html",
+    "static/media/bg-pattern-bottom-desktop.svg": "/FrontEndMentor-Challange3/static/media/bg-pattern-bottom-desktop.32aa6571dc718836bdfc.svg",
+    "static/media/bg-pattern-bottom-mobile.svg": "/FrontEndMentor-Challange3/static/media/bg-pattern-bottom-mobile.593835ec67fd27ee2a62.svg",
+    "static/media/bg-pattern-top-desktop.svg": "/FrontEndMentor-Challange3/static/media/bg-pattern-top-desktop.9d4ba9c9b19e4c6be1e6.svg",
+    "static/media/bg-pattern-top-mobile.svg": "/FrontEndMentor-Challange3/static/media/bg-pattern-top-mobile.58eed600d32e18ece9dc.svg",
+    "static/media/icon-star.svg": "/FrontEndMentor-Challange3/static/media/icon-star.2d8e7b7cb342bc812e9df51d276eaa78.svg",
+    "main.2aa6acae.css.map": "/FrontEndMentor-Challange3/static/css/main.2aa6acae.css.map",
+    "main.facd7147.js.map": "/FrontEndMentor-Challange3/static/js/main.facd7147.js.map",
+    "787.deaa0e61.chunk.js.map": "/FrontEndMentor-Challange3/static/js/787.deaa0e61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aa6acae.css",
+    "static/js/main.facd7147.js"
+  ]
+}
