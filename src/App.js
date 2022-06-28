@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Style/Main.css";
+import Heading from "./Components/Heading";
+import Rating from "./Components/Rating";
+import Review from "./Components/Review";
+import { socialProof } from "./Datas/SocialProof";
 
 function App() {
+  const heading = socialProof.map((data, index) => {
+    return <h1 key={index}>{data.heading}</h1>;
+  });
+
+  const paragraph = socialProof.map((data, index) => {
+    return <p key={index}>{data.paragraph}</p>;
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-top">
+        <div className="App-top-left">
+          <Heading heading={heading} paragraph={paragraph} />
+        </div>
+        <div className="App-top-right">
+          <Rating socialProof={socialProof} />
+        </div>
+      </div>
+      <div className="App-bottom">
+        <Review socialProof={socialProof} />
+      </div>
     </div>
   );
 }

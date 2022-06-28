@@ -1,0 +1,17 @@
+//Base
+@import "./Base/base";
+@import "./Base/variable";
+
+//Components
+@import "./Components/App";
+@import "./Components/Heading";
+@import "./Components/Rating";
+@import "./Components/Review";
+
+// State
+@import "./State/state";
+
+//Responsilbe
+@import "./Responsible/tab";
+@import "./Responsible/mobile";
+@import "./Responsible/Destop";
